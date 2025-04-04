@@ -1,0 +1,11 @@
+pipeline/analysis/reference_genome/
+pipeline/analysis/reference_index/
+pipeline/analysis/fastqc_reports/
+# Ignore reference genome and index files
+pipeline/analysis/reference_genome/
+pipeline/analysis/reference_index/
+*.bt2
+*.fna
+*.zip
+*.html
+*.json

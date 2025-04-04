@@ -1,0 +1,51 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.19+htslib-1.19
+##bcftoolsCommand=mpileup -f /home/ubuntu/Download/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna /home/ubuntu/Download/sorted_input.bam
+##reference=file:///home/ubuntu/Download/GCF_009914755.1_T2T-CHM13v2.0_genomic.fna
+##contig=<ID=NC_060925.1,length=248387328>
+##contig=<ID=NC_060926.1,length=242696752>
+##contig=<ID=NC_060927.1,length=201105948>
+##contig=<ID=NC_060928.1,length=193574945>
+##contig=<ID=NC_060929.1,length=182045439>
+##contig=<ID=NC_060930.1,length=172126628>
+##contig=<ID=NC_060931.1,length=160567428>
+##contig=<ID=NC_060932.1,length=146259331>
+##contig=<ID=NC_060933.1,length=150617247>
+##contig=<ID=NC_060934.1,length=134758134>
+##contig=<ID=NC_060935.1,length=135127769>
+##contig=<ID=NC_060936.1,length=133324548>
+##contig=<ID=NC_060937.1,length=113566686>
+##contig=<ID=NC_060938.1,length=101161492>
+##contig=<ID=NC_060939.1,length=99753195>
+##contig=<ID=NC_060940.1,length=96330374>
+##contig=<ID=NC_060941.1,length=84276897>
+##contig=<ID=NC_060942.1,length=80542538>
+##contig=<ID=NC_060943.1,length=61707364>
+##contig=<ID=NC_060944.1,length=66210255>
+##contig=<ID=NC_060945.1,length=45090682>
+##contig=<ID=NC_060946.1,length=51324926>
+##contig=<ID=NC_060947.1,length=154259566>
+##contig=<ID=NC_060948.1,length=62460029>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of raw reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of raw reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Read Position Bias (closer to 0 is better)">
+##INFO=<ID=MQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality Bias (closer to 0 is better)">
+##INFO=<ID=BQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Base Quality Bias (closer to 0 is better)">
+##INFO=<ID=MQSBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality vs Strand Bias (closer to 0 is better)">
+##INFO=<ID=SCBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Soft-Clip Length Bias (closer to 0 is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric, http://samtools.github.io/bcftools/rd-SegBias.pdf">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.19+htslib-1.19
+##bcftools_callCommand=call -mv -Ov -o /home/ubuntu/Download/variants.vcf; Date=Fri Apr  4 09:17:17 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	/home/ubuntu/Download/sorted_input.bam
