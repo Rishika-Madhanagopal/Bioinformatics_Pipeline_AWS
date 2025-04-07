@@ -148,8 +148,7 @@ jupyter notebook
 ```
 
 For a visual overview, see `docs/aws_architecture_diagram.png`.
-![AWS Architecture](docs/AWS Architecture Diagram.png)  
-
+![AWS Architecture](docs/AWS Architecture Diagram.png)
 
 ---
 
