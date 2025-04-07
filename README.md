@@ -59,6 +59,9 @@ git clone https://github.com/yourusername/bioinformatics-pipeline-aws.git
 cd bioinformatics-pipeline-aws
 
 ##Upload Genomic Data to S3
+Use AWS CLI to upload input files to your S3 bucket:
+
+aws s3 cp ~/Download/raw_data/ s3://your-bucket-name/raw_data/ --recursive
 
 
 
