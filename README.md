@@ -148,7 +148,12 @@ jupyter notebook
 ```
 
 For a visual overview, see `docs/aws_architecture_diagram.png`.
-![AWS Architecture](docs/AWS Architecture Diagram.png)
+## ☁️ AWS Architecture
+
+Below is the architecture diagram showing how the pipeline components interact across AWS services:
+
+![AWS Architecture Diagram](docs/AWS_Architecture_Diagram.png)
+
 
 ---
 
