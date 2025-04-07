@@ -141,15 +141,6 @@ jupyter notebook
 
 ## ☁️ AWS Architecture
 
-```
-[S3: Stores data] <--> [EC2: pipeline + Jupyter]
-         |
-     [Lambda / Batch] (optional automation & scaling)
-```
-
-For a visual overview, see `docs/AWS_Architecture_Diagram.png`.
-## ☁️ AWS Architecture
-
 Below is the architecture diagram showing how the pipeline components interact across AWS services:
 
 ![AWS Architecture Diagram](docs/AWS_Architecture_Diagram.png)
