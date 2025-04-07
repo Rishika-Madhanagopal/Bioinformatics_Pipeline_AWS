@@ -43,7 +43,6 @@ bioinformatics-pipeline-aws/
 - AWS-integrated design using **EC2**, **S3**, **Lambda**, and **AWS Batch**
 
 ---
-
 ## 🛠 Prerequisites
 
 - AWS account with permissions to use EC2, S3, Lambda, Batch
@@ -52,9 +51,7 @@ bioinformatics-pipeline-aws/
 - SSH access to EC2 (use PuTTY or native SSH on Windows)
 
 ---
-
 ## 📦 Setup Guide
-
 ### 1. Clone the Repository
 
 ```bash
