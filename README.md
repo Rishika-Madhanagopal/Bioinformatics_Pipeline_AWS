@@ -5,7 +5,6 @@ This project implements a complete bioinformatics workflow for genomic data anal
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
 ```text
 bioinformatics-pipeline-aws/
