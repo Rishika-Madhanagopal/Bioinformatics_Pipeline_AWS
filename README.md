@@ -27,7 +27,41 @@ bioinformatics-pipeline-aws/
 │   ├── s3_upload.sh              # Script for uploading results to S3
 │   └── jupyter_analysis.py       # Python analysis script for Jupyter
 │
-├── README.md
-└── LICENSE (optional)
+└── README.md
+
+
+---
+
+## 🚀 Features
+
+- Run quality checks using **FastQC**
+- Align reads with **Bowtie2** or **BWA**
+- Convert and process alignments using **Samtools**
+- Perform variant calling with **GATK**
+- Upload data and results to **Amazon S3**
+- Analyze VCF results using **Jupyter Notebook**
+- AWS-integrated design using **EC2**, **S3**, **Lambda**, and **AWS Batch**
+
+---
+
+## 🛠 Prerequisites
+
+- AWS account with permissions to use EC2, S3, Lambda, Batch
+- Ubuntu EC2 instance (recommend `t2.medium` or higher)
+- Tools installed via `install_tools.sh`
+- SSH access to EC2 (use PuTTY or native SSH on Windows)
+
+---
+
+## 📦 Setup Guide
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/bioinformatics-pipeline-aws.git
+cd bioinformatics-pipeline-aws
+
+##Upload Genomic Data to S3
+
 
 
